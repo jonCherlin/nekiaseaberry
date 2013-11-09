@@ -1,0 +1,34 @@
+/* mods.css changes the whole look and feel of the website.  This is the only file you should need to change. */
+
+body {
+	font-family: century gothic, verdana, arial, sans-serif;
+	background-color: #92C04E;
+	color:#646464;
+}
+#page {
+	background-color: #fffcff;
+	padding:1em;
+}
+a:link, a:visited {
+	color: #92C04E;
+}
+a:hover {
+	color:#aee857;
+}
+#access {
+	background-color: #92C04E;
+}
+#access a {
+	color:#ffffff;
+}
+#access li:hover > a, #access ul ul :hover > a {
+	background-color: #aee857;
+}
+#site-title a {
+	font-family: 'Julius Sans One', sans-serif;
+	text-decoration: none;
+}
+#site-description {
+	font-family: 'Julius Sans One', sans-serif;
+}
+h1.entry-title, h1.entry-title a, h1.widget-title {background-color: #92C04E;padding:5px;color:#ffffff;}

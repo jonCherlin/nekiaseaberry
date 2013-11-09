@@ -1,0 +1,116 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wpart theme\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-07-09 17:11-0600\n"
+"PO-Revision-Date: 2012-07-17 17:05+0800\n"
+"Last-Translator: Wenling Gao <gaowernling@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "404 error"
+msgstr ""
+
+msgid "not found"
+msgstr ""
+
+msgid "sorry, but you are looking for something that is not here."
+msgstr ""
+
+msgid "daily archives: <span>%s</span>"
+msgstr ""
+
+msgid "monthly archives:<span>%s</span>"
+msgstr ""
+
+msgid "yearly archives: <span>%s</span>"
+msgstr ""
+
+msgid "author archive"
+msgstr ""
+
+msgid "category archive:<span>%s</span>"
+msgstr ""
+
+msgid "tag archive: <span>%s</span>"
+msgstr ""
+
+msgid "blog archives"
+msgstr ""
+
+msgid "post on"
+msgstr ""
+
+msgid "posted in"
+msgstr ""
+
+msgid "tags:"
+msgstr ""
+
+msgid "read the rest of this entry &gt;&gt;"
+msgstr ""
+
+msgid "pages:"
+msgstr ""
+
+msgid "no comment yet"
+msgstr ""
+
+msgid "1 comment"
+msgstr ""
+
+msgid "% comments"
+msgstr ""
+
+msgid "comments are closed"
+msgstr ""
+
+msgid "edit"
+msgstr ""
+
+msgid "&laquo; older entries"
+msgstr ""
+
+msgid "newer entries &raquo;"
+msgstr ""
+
+msgid "this post is password protected. enter the password to view any comments."
+msgstr ""
+
+msgid "no responses"
+msgstr ""
+
+msgid "one responses"
+msgstr ""
+
+msgid "% responses"
+msgstr ""
+
+msgid "designed by"
+msgstr ""
+
+msgid "powered by"
+msgstr ""
+
+msgid "view galleries"
+msgstr ""
+
+msgid "more galleries"
+msgstr ""
+
+msgid "pages"
+msgstr ""
+
+msgid "categories"
+msgstr ""
+
+msgid "archives"
+msgstr ""
+
+msgid "links"
+msgstr ""
+
+msgid "meta"
+msgstr ""
