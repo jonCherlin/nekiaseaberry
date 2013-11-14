@@ -15,21 +15,19 @@ Image is distributed under Public Domain License compatible with GPL - http://pi
 
 /* =Structure
 -------------------------------------------------------------- */
-body {
-	background: #804ec0; /* Old browsers */
-background: -moz-linear-gradient(top,  #804ec0 2%, #997cbf 22%, #9cbf69 80%, #92c04e 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(2%,#804ec0), color-stop(22%,#997cbf), color-stop(80%,#9cbf69), color-stop(100%,#92c04e)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  #804ec0 2%,#997cbf 22%,#9cbf69 80%,#92c04e 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  #804ec0 2%,#997cbf 22%,#9cbf69 80%,#92c04e 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  #804ec0 2%,#997cbf 22%,#9cbf69 80%,#92c04e 100%); /* IE10+ */
-background: linear-gradient(to bottom,  #804ec0 2%,#997cbf 22%,#9cbf69 80%,#92c04e 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#804ec0', endColorstr='#92c04e',GradientType=0 ); /* IE6-9 */
-
+hgroup {
+	width:265px;
+}
+hgroup, #access {
+	float:left;
 }
 #page {
 	display: block;
 	margin: 0 auto;
 	max-width: 1000px;
+}
+#main {
+	padding:0px 1em;
 }
 #primary {
 	float: left;
@@ -88,7 +86,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#804ec0', end
 #site-title {
 	font-size: 2em;
 	font-weight: bold;
-	margin: .67em 0;
+	/*margin: .67em 0;*/
+	margin:0px 0px .67em 0px;
 }
 #site-title a {
 	color:#804EC0;
@@ -426,6 +425,7 @@ article.comment {
 }
 #site-generator {
 	font-size: small;
+	display:none;
 }
 
 /* =Responsive Adjustments

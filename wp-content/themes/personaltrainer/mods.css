@@ -1,13 +1,21 @@
 /* mods.css changes the whole look and feel of the website.  This is the only file you should need to change. */
 
 body {
+	margin-top:0px;
 	font-family: century gothic, verdana, arial, sans-serif;
-	background-color: #92C04E;
+	background: #804ec0; /* Old browsers */
+	background: -moz-linear-gradient(top,  #804ec0 2%, #997cbf 22%, #9cbf69 80%, #92c04e 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(2%,#804ec0), color-stop(22%,#997cbf), color-stop(80%,#9cbf69), color-stop(100%,#92c04e)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #804ec0 2%,#997cbf 22%,#9cbf69 80%,#92c04e 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #804ec0 2%,#997cbf 22%,#9cbf69 80%,#92c04e 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #804ec0 2%,#997cbf 22%,#9cbf69 80%,#92c04e 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #804ec0 2%,#997cbf 22%,#9cbf69 80%,#92c04e 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#804ec0', endColorstr='#92c04e',GradientType=0 ); /* IE6-9 */
 	color:#646464;
 }
 #page {
 	background-color: #fffcff;
-	padding:1em;
+	/*padding:1em;*/
 }
 a:link, a:visited {
 	color: #92C04E;
@@ -16,7 +24,15 @@ a:hover {
 	color:#aee857;
 }
 #access {
-	background-color: #92C04E;
+	width:735px;
+	background: #5301bf; /* Old browsers */
+	background: -moz-linear-gradient(left,  #5301bf 51%, #804ec0 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(51%,#5301bf), color-stop(100%,#804ec0)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  #5301bf 51%,#804ec0 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  #5301bf 51%,#804ec0 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  #5301bf 51%,#804ec0 100%); /* IE10+ */
+	background: linear-gradient(to right,  #5301bf 51%,#804ec0 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5301bf', endColorstr='#804ec0',GradientType=1 ); /* IE6-9 */
 }
 #access a {
 	color:#ffffff;
